@@ -17,7 +17,7 @@ The goal of this device is to accurately detect pitch events and give an estimat
 The data logged include accelerometer and gyroscope in all three axis. The logging rate is around 537 Hz. Every half a second, the buffered data will be flushed to the SD card to ensure data persistency.
 
 ### VIDEO
-![](https://www.youtube.com/watch?v=B9WVGBNP6yY)
+[](https://www.youtube.com/watch?v=B9WVGBNP6yY)
 
 ### IMAGES and GIFs
 Add images and screenshot of your product, user iterface, etc. Animated GIFs of User interfaces would be preferred.
