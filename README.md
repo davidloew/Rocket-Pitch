@@ -17,7 +17,7 @@ The goal of this device is to accurately detect pitch events and give an estimat
 The data logged include accelerometer and gyroscope in all three axis. The logging rate is around 537 Hz. Every half a second, the buffered data will be flushed to the SD card to ensure data persistency.
 
 ### VIDEO
-[![](images/Thumb.jpg)](https://www.youtube.com/watch?v=B9WVGBNP6yY)
+![](https://www.youtube.com/watch?v=B9WVGBNP6yY)
 
 ### IMAGES and GIFs
 Add images and screenshot of your product, user iterface, etc. Animated GIFs of User interfaces would be preferred.
@@ -27,4 +27,4 @@ Add images and screenshot of your product, user iterface, etc. Animated GIFs of 
 ### BUILD INSTRUCTIONS
 The project is using ESP8266 miro-controller, Adafruit 9dof IMU, Adafruit OLED, micro-SD card.
 Clone the repo and import the library folders to Arduino. Download the wifi manager library for ESP8266. The modified libraries have extra low level functions that are not available in the original adafruit libraries. 
-![](images/Sys.jpg)
+![](images/Sys.png)
