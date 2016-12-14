@@ -20,11 +20,14 @@ The data logged include accelerometer and gyroscope in all three axis. The loggi
 https://www.youtube.com/watch?v=B9WVGBNP6yY
 
 ### IMAGES and GIFs
-Add images and screenshot of your product, user iterface, etc. Animated GIFs of User interfaces would be preferred.
+The final device only has the OLED screen exposed to users. With the help of a 100mAh Li-po battery, the device is much lighter and flatter.
 
 ![](https://challengepost-s3-challengepost.netdna-ssl.com/photos/production/software_photos/000/453/680/datas/gallery.jpg)
+![](https://challengepost-s3-challengepost.netdna-ssl.com/photos/production/software_photos/000/453/318/datas/gallery.jpg)
+
 
 ### BUILD INSTRUCTIONS
 The project is using ESP8266 miro-controller, Adafruit 9dof IMU, Adafruit OLED, micro-SD card.
 Clone the repo and import the library folders to Arduino. Download the wifi manager library for ESP8266. The modified libraries have extra low level functions that are not available in the original adafruit libraries. 
+The main
 ![](images/Sys.png)
