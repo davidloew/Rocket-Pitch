@@ -31,3 +31,29 @@ The project is using ESP8266 miro-controller, Adafruit 9dof IMU, Adafruit OLED, 
 Clone the repo and import the library folders to Arduino. Download the wifi manager library for ESP8266. The modified libraries have extra low level functions that are not available in the original adafruit libraries. 
 The main
 ![](images/Sys.png)
+
+Connections:
+| ESP       | MicroSD breakout    |
+| ------------- |-------------|
+| D14      | SCK |
+| D12      | MISO      |
+| GND | GND      |
+     
+| ESP       | Adafruit 9dof    |
+| ------------- |-------------|
+| D5      | SCL |
+| D4      | SDA      |
+| GND | GND      |
+
+| ESP       | Adafruit OLED    |
+| ------------- |-------------|
+| D5      | SCL |
+| D4      | SDA      |
+| GND | GND      |
+
+| ESP       | push button    |
+| ------------- |-------------|
+| D2      | GND |
+ 
+
+
